@@ -49,8 +49,6 @@ public class SubjectChecker {
                 }else {
                     incorrect += 1;
                 }
-            }else {
-                System.out.println("There was a processing error, your scores may not be accurate.");
             }
         }
         subscore = new RawScores.Subscore(correct,incorrect,omitted);

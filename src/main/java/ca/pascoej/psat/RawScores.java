@@ -54,6 +54,7 @@ public class RawScores {
     public Subscore getReading() {
         return reading;
     }
+
     @Override
     public String toString() {
         return "RawScores{" +

@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Results</title>
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="scores.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+
+     <div class="panel panel-default">
+     <div class="panel-heading">Raw PSAT Scores</div>
+  <div class="panel-body">
+    <p>Keep in mind these are the raw scores, not normalized. Here is where you can find your normalized score from your raw scores. <a href="https://www.collegeboard.org/pdf/psat/understanding-psat-nmsqt-scores-guide_0.pdf"> Raw Score -> Scaled PDF 2014</a></p>
+  </div>
+       <table class="table">
+
+       <tr>
+        <td>Type</td>
+        <td>Correct</td>
+        <td>Incorrect</td>
+        <td>Omit</td>
+        </tr>
+        <tr>
+        <td>Critical Reading</td><td>{{rc}}</td><td>{{ri}}</td><td>{{ro}}</td>
+        </tr>
+        <tr>
+        <td>Math</td><td>{{mc}}</td><td>{{mi}}</td><td>{{mo}}</td></tr><tr>
+        <td>Writing</td><td>{{wc}}</td><td>{{wi}}</td><td>{{wo}}</td>
+        </tr>
+
+       </table>
+     </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body>
+</html>
